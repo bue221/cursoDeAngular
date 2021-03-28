@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import SwiperCore from 'swiper/core';
 
 @Component({
   selector: 'app-banner',
@@ -9,6 +10,13 @@ export class BannerComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  // onSwiper(swiper) {
+  //   console.log(swiper);
+  // }
+  // onSlideChange() {
+  //   console.log('slide change');
+  // }
 
   images: string[] = [
     'assets/images/banner-1.jpg',

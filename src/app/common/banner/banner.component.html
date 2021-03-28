@@ -1,7 +1,5 @@
-<div class="swiper-container">
-  <div class="swipper-wrapper">
-    <div class="swiper-slide" *ngFor="let img of images">
-      <img [src]="img" alt="buena" />
-    </div>
-  </div>
-</div>
+<swiper>
+  <ng-template swiperSlide *ngFor="let slide of images">
+    <img [src]="slide" alt="buena" />
+  </ng-template>
+</swiper>
