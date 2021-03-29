@@ -1,0 +1,8 @@
+<div *ngIf="product !== undefined">
+  <img [src]="product.image" [alt]="product.title" width="300em" />
+  <ul>
+    <li>{{ product.title }}</li>
+    <li>{{ product.price | currency }}</li>
+    <li>{{ product.description }}</li>
+  </ul>
+</div>

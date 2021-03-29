@@ -9,7 +9,7 @@
     </div>
   </div>
   <div class="card-actions">
-    <button>Ver detalle</button>
+    <button [routerLink]="['/detail-product', product.id]">Ver detalle</button>
     <button (click)="addToCart()">Añadir al carro</button>
   </div>
 </div>

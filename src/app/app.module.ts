@@ -15,6 +15,9 @@ import { ProductsComponent } from './pages/products/products.component';
 import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { BannerComponent } from './common/banner/banner.component';
+import { Error404Component } from './pages/error404/error404.component';
+import { DetailProductComponent } from './pages/detail-product/detail-product.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +31,9 @@ import { BannerComponent } from './common/banner/banner.component';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
+    Error404Component,
+    DetailProductComponent,
+    LayoutComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, SwiperModule],
   providers: [],
